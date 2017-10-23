@@ -27,6 +27,13 @@
       "sourceScreenId": "app.login.loginconfident",
       "sourceAppId": "universaltemplates",
       "model": "login"
+    },
+    {
+      "id": "viewissues",
+      "name": "viewissues",
+      "sourceScreenId": "app.tableviewadvanced.tableviewadvancedconfident",
+      "sourceAppId": "universaltemplates",
+      "model": "viewissues"
     }
   ],
   "sourceAppId": "_blank",
