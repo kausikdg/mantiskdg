@@ -27,13 +27,6 @@
       "sourceScreenId": "app.login.loginconfident",
       "sourceAppId": "universaltemplates",
       "model": "login"
-    },
-    {
-      "id": "viewissuies",
-      "name": "Viewissuies",
-      "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank",
-      "model": "viewissues"
     }
   ],
   "sourceAppId": "_blank",

@@ -42,14 +42,5 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.viewissuies', {
-        views: {
-            app: {
-                controller: 'app_viewissuies',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.viewissuies');
-                }
-            }
-        }
     });
 });
