@@ -4,5 +4,11 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "34d715ed",
   "uiCommonVersion": "5.2.1",
-  "creatorId": "admin"
+  "creatorId": "admin",
+  "id": "mantiskdg_2",
+  "previewImageURL": "/previews/34d715ed-mantiskdg_2/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/kausikdg/mantiskdg",
+  "creatorName": "PowWow Admin",
+  "sdks": []
 }
