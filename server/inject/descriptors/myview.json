@@ -9,8 +9,9 @@
     },
     "viewissueslink": {
       "type": "action",
-      "selector": "body",
-      "control": "property.innerText"
+      "selector": "a[href='/mantisbt/view_all_bug_page.php']",
+      "control": "action.link",
+      "selectContains": "View Issues"
     }
   },
   "connect": []
