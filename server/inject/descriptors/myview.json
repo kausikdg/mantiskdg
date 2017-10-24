@@ -1,5 +1,16 @@
 {
   "type": "object",
-  "properties": {},
+  "properties": {
+    "isMyview": {
+      "type": "identifier",
+      "selector": "body",
+      "control": "property.innerText"
+    },
+    "viewissueslink": {
+      "type": "action",
+      "selector": "body",
+      "control": "property.innerText"
+    }
+  },
   "connect": []
 }
