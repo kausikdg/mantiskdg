@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "isMyview": {
+      "type": "identifier",
+      "selector": ".subtle[href='view_all_set.php?type=1&temporary=y&handler_id=1&hide_status=80']",
+      "control": "exists",
+      "selectContains": "Assigned to Me"
+    },
+    "viewissueslink": {
+      "type": "action",
+      "selector": "body",
+      "control": "property.innerText"
+    }
+  },
+  "connect": []
+}
