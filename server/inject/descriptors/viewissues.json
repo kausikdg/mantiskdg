@@ -48,12 +48,6 @@
       "update": {
         "type": "none"
       }
-    },
-    "isViewissues": {
-      "type": "identifier",
-      "selector": ".floatleft",
-      "control": "exists",
-      "selectContains": "Viewing Issues"
     }
   },
   "connect": []
