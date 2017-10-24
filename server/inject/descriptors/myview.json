@@ -10,7 +10,7 @@
     "viewissueslink": {
       "type": "action",
       "selector": "a[href*='view_all_bug_page.php']",
-      "control": "property.innerText"
+      "control": "action.link"
     }
   },
   "connect": []
