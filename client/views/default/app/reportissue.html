@@ -23,17 +23,17 @@
             </div>
             <div class="row" data-comp-id="row.3">
                 <div class="col" data-comp-id="column.3">
-                    <label class="item" data-comp-id="takePhoto.1"
-                        ng-class="{'item-input item-button-right': style === 'control'}"
-                        take-photo="control">
-                        <span class="input-label" ng-if="style === 'control'">Take Photo</span>
+                    <label class="item" custom-photo="control" data-comp-id="customPhoto.1"
+                        ng-class="{'item-input item-button-right': style === 'control'}">
+                        <span class="input-label" ng-if="style === 'control'">Custom Photo</span>
                         <button class="button button-icon" ng-if="style === 'control'">
                             <i class="icon positive-icon ion-camera"></i>
                         </button>
                         <input disabled="" ng-if="style === 'control'" type="text">
+                        <input disabled="" ng-if="style === 'control'" type="text">
                         <button class="button button-block button-positive nomargin"
-                            ng-if="style === 'button'">Take Photo</button>
-                        <textarea class="not-visible"></textarea>
+                            ng-if="style === 'button'">Custom Photo</button>
+                        <input class="data-container" type="hidden">
                     </label>
                 </div>
             </div>
