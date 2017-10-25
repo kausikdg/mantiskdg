@@ -3,6 +3,8 @@ function app_viewissues($scope, app) {
     'use strict';
     
     app.init($scope, function() {
-        var i = $scope;
+        for (var i=0; i < $scope.data.issueslist.length; i++) {
+            $scope.data.issueslist[i].id = 'Flex: ' + $scope.data.issueslist[i].id;
+        }
     });
 }
