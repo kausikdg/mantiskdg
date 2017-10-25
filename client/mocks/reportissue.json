@@ -1,1 +1,22 @@
-{}
+{
+  "category": {
+    "options": [
+      {
+        "label": "Medical",
+        "value": "1"
+      },
+      {
+        "label": "Neurological",
+        "value": "2"
+      },
+      {
+        "label": "Medicine",
+        "value": "3"
+      }
+    ],
+    "selected": {
+      "label": "Medical",
+      "value": "1"
+    }
+  }
+}
