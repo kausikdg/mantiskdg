@@ -51,7 +51,7 @@
             "selector": "td",
             "selectIndex": 8,
             "control": {
-              "fn": "function(param){var i=param.indexOf(' ');var len=param.length;if(i>0){return param.substring(i+2,len-3)}else{return 'not assigned'}}",
+              "fn": "function(param){var i=param.indexOf(' ');var len=param.length;if(i>0){return param.substring(i+2,len-1)}else{return 'not assigned'}}",
               "control": "property.innerText"
             }
           },
