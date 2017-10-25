@@ -13,5 +13,14 @@
       "control": "exists"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isReportissue"
+      ],
+      "screens": [
+        "reportissue"
+      ]
+    }
+  ]
 }
