@@ -4,6 +4,8 @@ function app_login($scope, app, $q) {
     app.init($scope);
     
     $scope.flex = function() {
+        $scope.data.username = 'Administrator';
+        $scope.data.password = 'powwow';
         app.action('login', 'submit', this);
     }
     
