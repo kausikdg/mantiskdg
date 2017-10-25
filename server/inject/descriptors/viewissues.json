@@ -51,7 +51,7 @@
             "selector": "td",
             "selectIndex": 8,
             "control": {
-              "fn": "function(params){return 'Custom: '+params}",
+              "fn": "function(param){var i=param.indexOf(' ');var len=param.length;if(i>0){return param.substr(i,len-1)}return param}",
               "control": "property.innerText"
             }
           },
