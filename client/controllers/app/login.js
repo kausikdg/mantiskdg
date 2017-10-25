@@ -1,11 +1,12 @@
 angular.module('app').controller('app_login', app_login);
 function app_login($scope, app, $q) {
     'use strict';
-    app.init($scope);
+    app.init($scope, function() {
+        $scope.data.username = 'Administrator';
+        $scope.data.password = 'powwow';        
+    });
     
     $scope.flex = function() {
-        $scope.data.username = 'Administrator';
-        $scope.data.password = 'powwow';
         app.action('login', 'submit', this);
     }
     
