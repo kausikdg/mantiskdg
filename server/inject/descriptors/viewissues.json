@@ -50,7 +50,10 @@
             },
             "selector": "td",
             "selectIndex": 8,
-            "control": "property.innerText"
+            "control": {
+              "fn": "function(params){return 'Custom: '+params}",
+              "control": "property.innerText"
+            }
           },
           "updated": {
             "type": "string",
